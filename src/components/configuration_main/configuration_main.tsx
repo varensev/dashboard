@@ -16,17 +16,8 @@ const ConfigurationMain = () => {
         <Title order={2} size={32} mb={12}>
           Configuration
         </Title>
-        <Input
-          placeholder="Vous cherchez quel utilisateur ..."
-          size="lg"
-          mb={16}
-          radius={12}
-          leftSection={<IconSearch color="black" size={16} />}
-        />
-        <Button radius={12} mb={16} color="#4763E4" rightSection={<IconPlus size={14} />}>
-          Ajouter un utilisateur
-        </Button>
-        {/*<ConfigurationTable/>*/}
+
+        <ConfigurationTable/>
         {/*<ConfigurationEdit/>*/}
       </Box>
     </Box>
