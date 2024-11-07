@@ -1,4 +1,5 @@
-import { Box, Flex } from '@mantine/core';
+import { Flex } from '@mantine/core';
+import { ConfigurationMain } from '@/components/configuration_main/configuration_main';
 import { Navbar_nested } from '@/components/nav_bar/navbar_nested/navbar_nested';
 
 export function HomePage() {
@@ -6,9 +7,7 @@ export function HomePage() {
     <>
       <Flex>
         <Navbar_nested />
-        <Box bg="#FAFAFA" w="100%">
-          cc
-        </Box>
+        <ConfigurationMain />
       </Flex>
     </>
   );

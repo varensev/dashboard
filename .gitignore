@@ -134,3 +134,5 @@ dist
 .github
 .storybook
 .yarn
+.idea
+.vscode

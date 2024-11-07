@@ -1,10 +1,10 @@
 import { Group, ScrollArea } from '@mantine/core';
-import { Logo } from '@/components/auth/icons/logo';
-import { SideBarConfiguration } from '@/components/auth/icons/side_bar_configuration';
-import { SideBarDirection } from '@/components/auth/icons/side_bar_direction';
-import { SideBarDossier } from '@/components/auth/icons/side_bar_dossier';
-import { SideBarProjet } from '@/components/auth/icons/side_bar_projet';
-import { SideBarProtection } from '@/components/auth/icons/side_bar_protection';
+import { Logo } from '@/components/icons/logo';
+import { SideBarConfiguration } from '@/components/icons/side_bar_configuration';
+import { SideBarDirection } from '@/components/icons/side_bar_direction';
+import { SideBarDossier } from '@/components/icons/side_bar_dossier';
+import { SideBarProjet } from '@/components/icons/side_bar_projet';
+import { SideBarProtection } from '@/components/icons/side_bar_protection';
 import { LinksGroup } from '@/components/nav_bar/navbar_links_group/navbar_links_group';
 import { User_button } from '@/components/nav_bar/user_button/user_button';
 import classes from './navbar_nested.module.scss';
@@ -38,7 +38,7 @@ export function Navbar_nested() {
     <nav className={classes.navbar}>
       <div className={classes.header}>
         <Group justify="space-between">
-          <Logo whiteText />
+          <Logo height={32} whiteText />
         </Group>
       </div>
 

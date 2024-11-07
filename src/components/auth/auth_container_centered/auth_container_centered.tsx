@@ -1,7 +1,7 @@
 import React from 'react';
 import { Box, Container, Text } from '@mantine/core';
 import classes from '@/components/auth/auth_container_centered/auth_container_centered.module.scss';
-import { Logo } from '@/components/auth/icons/logo';
+import { Logo } from '@/components/icons/logo';
 
 interface AuthContainerCenteredProps {
   children: React.ReactNode;

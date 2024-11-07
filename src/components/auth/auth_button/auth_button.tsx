@@ -1,6 +1,6 @@
 import React from 'react';
 import { Anchor, Button, Text } from '@mantine/core';
-import { IconArrowRight } from '@/components/auth/icons/icon_arrow_right';
+import { IconArrowRight } from '@/components/icons/icon_arrow_right';
 
 interface AuthButtonProps {
   buttonText: string;
